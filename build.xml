@@ -30,7 +30,7 @@
 <!-- Define the SonarQube global properties (the most usual way is to pass these properties via the command line) -->
 <property name="sonar.jdbc.username" value="sonar" />
 <property name="sonar.jdbc.password" value="sonar" /> 
- <property name="sonar.jdbc.url" value="jdbc:h2:tcp://localhost:9092/sonar" />
+ <property name="sonar.jdbc.url" value="jdbc:mysql://localhost:3306/sonar" />
  <property name="sonar.host.url" value="http://localhost:9000/sonarqube" />
 
  <!-- Define the SonarQube project properties -->
