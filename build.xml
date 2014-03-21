@@ -24,8 +24,7 @@
 	<property name="test.htmlreports.dir" location="${build.dir}/test/htmlreports/" />
 	<property name="test.data.dir" location="${build.dir}/test/data/" />
 	<property name="junit.class.name" value="catalog.model.dao.hibernate.Testdb" />
-	<!--<property name="class.name" value="catalog.view.builder.Test1" />-->
-	<!--<property name="classes.dir" location="${basedir}/output" />-->
+	
 	
 <!-- Define the SonarQube global properties (the most usual way is to pass these properties via the command line) -->
 <property name="sonar.jdbc.username" value="sonar" />
@@ -47,15 +46,7 @@
 		</fileset>
 	</path>
 
-	<!--<path id="javaclasspath">
-		<fileset dir="${src.dir}">
-			<include name="**/*.java" />
-		</fileset>
-	</path>-->
-
-	<!--<path id="classpath.base">
-		<pathelement location="${lib.dir}/tools.jar" />
-	</path>-->
+	
 
 	<path id="classpath.test">
 		<pathelement location="${basedir}/lib/junit-4.10.jar" />
