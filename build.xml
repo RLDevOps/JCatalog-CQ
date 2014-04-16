@@ -103,7 +103,7 @@
 	</target>
 
 	<!-- Executable Targets -->
-	<target name="build" depends="prepare,deploy.copyJars,test,pmd,checkstyle,sonar-runner" description="Compile Java files and copy static files.">
+	<target name="build" depends="prepare,deploy.copyJars,test,sonar-runner" description="Compile Java files and copy static files.">
 		<javac srcdir="${src.java.dir}" destdir="${build.dir}/${project.name}/WEB-INF/classes">
 			<include name="**/*.java" />
 			<classpath refid="classpath"/>
